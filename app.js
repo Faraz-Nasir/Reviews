@@ -3,7 +3,7 @@ console.log(img.src)
 //Id #,cls .
 
 let names=["John Atkin","Petrucci","Adam Clover","James LaBrie","Rishi Raghu"]
-let images=["person-1.jpeg","person1.jpg","person2.jpg","person3.jpg"]
+let images=["person-1.jpeg","person1.jpg","person2.jpg","person3.jpg","received_1316277351754252.jpeg"]
 let suprisebtn=document.querySelector(".random-btn")
 let rightarrow=document.querySelector(".next-btn")
 console.log(rightarrow)
@@ -44,7 +44,7 @@ leftarrow.addEventListener("click",function(event){
 })
 suprisebtn.addEventListener("click",function(event){
     //random number between 0 and 4 
-    let random=Math.floor((Math.random()*4)+0)
-    document.querySelector("#author").textContent=names[random]
-    document.querySelector("#person-img").src=images[random]
+    
+    document.querySelector("#author").textContent=names[4]
+    document.querySelector("#person-img").src=images[4]
 })
